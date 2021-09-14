@@ -1,0 +1,31 @@
+.background {
+  viewport-fill: black; 
+}
+.top {
+  font-family: System-Regular;
+  text-length: 100;
+  text-anchor: middle;
+  fill: white;
+}
+#background{
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+#time {
+  font-family: System-Bold;
+  font-size: 85;
+}
+#dated {
+  font-size: 20;
+}
+#datem {
+  font-size: 30;
+}
+#ico {
+  width: 15;
+  height: 15;
+}
+.sensor-data {
+  font-size: 20;
+}

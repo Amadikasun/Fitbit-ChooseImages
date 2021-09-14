@@ -1,0 +1,40 @@
+<svg class="background">
+  <rect id="background" />
+  <image visibility="hidden" x= "0" y="0" width="550" height="350" id="img" href="space.jpg"/>
+  <image visibility="hidden" x= "0" y="0" width="400" height="350" id="img1" href="wolves.png"/>
+  <image visibility="hidden" x= "0" y="0" width="550" height="350" id="img2" href="poppies.jpg"/>
+  <image visibility="hidden" x= "0" y="0" width="400" height="350" id="img3" href="dragon.png"/>
+  <image visibility="hidden" x= "-60" y="0" width="450" height="360" id="img4" href="cat.png"/>
+  <!-- visibility, x, y, id, class, href-->
+  <text  x="160" y="35" id="datem" class="top"/>
+  <text x="165" y="200" id="time" class="top"/>
+  <text x="235" y="53" id="dated" class="top"/>
+
+  <!-- body present -->
+  <text visibility="hidden" id="bps-data" class="sensor-data top" >{ ... }</text>
+  
+  <!-- HR -->
+  <image x="200" y="70" id="ico" href="hr.png" />
+  <text x="200+45" y="70+15"  id="hrm-data" class="sensor-data top" > </text>
+  <!-- Steps -->
+  <image x="200" y="90" id="ico" href="shoe.png" />
+  <text x="200+55" y="90+15" id="steps-data" class="sensor-data top"> </text>
+  <!-- Floor -->
+  <image x="200" y="110" id="ico" href="stars.png" />
+  <text x="200+45" y="110+15" id="floor-data" class="sensor-data top"> </text>
+  <!-- Burn -->
+  <image x="65" y="70" id="ico" href="burn.png" />
+  <text x="70+45" y="70+15" id="burn-data" class="sensor-data top"> </text>
+  <!-- Distance -->
+  <image x="65" y="90" id="ico" href="distance.png" />
+  <text x="70+58" y="90+15" id="distance-data" class="sensor-data top"> </text>
+  <!-- Active Minute Zone -->
+  <image x="65" y="110" id="ico" href="active.png" />
+  <text x="70+33" y="110+15" id="minutes-data" class="sensor-data top"> </text>
+  
+<!-- Text Field -->
+  <text x="130+45" y="250+15" id="textField" class="sensor-data top"> </text> 
+<!-- Battery -->
+  <image x="140" y="300" id="ico" href="baterry.png" />
+  <text x="140+40" y="300+15"  id="battery" class="sensor-data top" > </text>
+</svg>
