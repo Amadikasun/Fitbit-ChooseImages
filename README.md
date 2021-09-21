@@ -2,8 +2,7 @@
 
 <img src="CAT.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
 
-<img src="SPACE.png" alt="Flag_and_Image-screenshot_SPACE" style="zoom:25%;" /> <img src="CAT.png" alt="Flag_and_Image-screenshot_CAT" style="zoom:25%;" />
-
+<img src="SPACE.png" alt="Flag_and_Image-screenshot_SPACE" style="zoom:25%;" /> 
 
 
 
