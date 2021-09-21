@@ -4,12 +4,13 @@ import * as messaging from "messaging";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
 import * as messaging from "messaging"; //settings
-import { display } from "display";
+import { display } from "display"; //turned off/on
 import { HeartRateSensor } from "heart-rate"; //bpm
 import { BodyPresenceSensor } from "body-presence"; //onWrist
 import { me as appbit } from "appbit";
-import { today } from "user-activity"; //steps, elevation,....
+import { today } from "user-activity"; //steps, elevation, goals, ...
 import { battery } from "power";
+
 // Update the clock every minute
 clock.granularity = "minutes";
 let background = document.getElementById("background");
@@ -19,6 +20,7 @@ let images2 = document.getElementById("img2");
 let images3 = document.getElementById("img3");
 let images4 = document.getElementById("img4");
 // Get a handle on the <text> element
+//const background = document.getElementById("background");
 const time = document.getElementById("time");
 const datem = document.getElementById("datem");
 const dated = document.getElementById("dated");
@@ -29,6 +31,7 @@ const burn = document.getElementById("burn-data");
 const distance = document.getElementById("distance-data");
 const elevation = document.getElementById("floor-data");
 const hrmData = document.getElementById("hrm-data");
+
 const batteries = document.getElementById("battery");
 const textField = document.getElementById("textField");
 
@@ -64,8 +67,6 @@ clock.ontick = (evt) => {
     batteries.text = battery.chargeLevel + "%";
 }
 
-
-//HR, Steps, Floor, Distance, Callories, activeZoneMinutes
 const sensors = [];
 
 if (appbit.permissions.granted("access_heart_rate")) {
@@ -88,9 +89,9 @@ bodyPresence.addEventListener("reading", () => {
 sensors.push(bodyPresence);
 bodyPresence.start();
 
-//Todo: Condition this with onWrist
+
 if (appbit.permissions.granted("access_activity")) {
-    /* Today  */
+    //HR, Steps, Floor, Distance, Callories, activeZoneMinutes
     steps.text = today.adjusted.steps;
     minutes.text = today.adjusted.activeZoneMinutes.total;
     burn.text = today.adjusted.calories;
@@ -100,10 +101,12 @@ if (appbit.permissions.granted("access_activity")) {
 
 
 /* Stop senzor if battery low then 50% */
+
 display.addEventListener("change", () => {
     // Automatically stop all sensors when the screen is off to conserve battery
     display.on ? sensors.map(sensor => sensor.start()) : sensors.map(sensor => sensor.stop());
 });
+
 battery.addEventListener("change", () => {
     // Battery changes
     batteries.text = battery.chargeLevel + "%";
@@ -123,14 +126,7 @@ messaging.peerSocket.onmessage = evt => {
     if (evt.data.key === "color" && evt.data.newValue) {
         let color = JSON.parse(evt.data.newValue);
         console.log(`Setting background color: ${color}`);
-        background.style.fill = color;
-        /*colors={[
-               {color: "#e0af00"},
-               {color: "#490058"},
-               {color: "#2f4d4c"},
-               {color: "#282780"},
-               {color: "#777"}
-             ]}*/
+
         if (color === "#282780") {
             images.style.visibility = "visible"; //sky
         } else {
