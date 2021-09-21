@@ -1,4 +1,4 @@
-#  Images and Flags
+#  Images
 
 <img src="CAT.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
 
