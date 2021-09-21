@@ -8,7 +8,7 @@
 
 ## Description
 
-A clock face for Fitbit Sense and Versa 3. Built using the Fitbit Studio and Fitbit OS Simulator.
+This clock face was created using the image. Clock face for Fitbit Sense and Versa 3. Built using the Fitbit Studio and Fitbit OS Simulator.
 
 ### Clock
 
