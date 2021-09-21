@@ -1,12 +1,11 @@
 #  Images and Flags
 
-<<<<<<< HEAD
 <img src="WOLF.png" alt="Flag_and_Image-screenshot (1)" style="zoom:50%;" />
 
 <img src="CAT.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
-=======
+
 <img src="SPACE.png" alt="Flag_and_Image-screenshot_SPACE" style="zoom:25%;" /> <img src="CAT.png" alt="Flag_and_Image-screenshot_CAT" style="zoom:25%;" />
->>>>>>> 1c1b45d357b495c04366c7e9de86d3b25a2f093e
+
 
 
 
