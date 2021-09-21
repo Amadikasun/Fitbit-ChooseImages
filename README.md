@@ -1,8 +1,8 @@
 #  Images and Flags
 
-<img src="C:\Users\Janka\Downloads\Flag_and_Image-screenshot (1).png" alt="Flag_and_Image-screenshot (1)" style="zoom:50%;" />
+<img src="WOLF.png" alt="Flag_and_Image-screenshot (1)" style="zoom:50%;" />
 
-<img src="C:\Users\Janka\Downloads\Flag_and_Image-screenshot.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
+<img src="CAT.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
 
 
 
