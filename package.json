@@ -5,14 +5,15 @@
   "fitbit": {
     "appUUID": "2e4c0aa2-cc4f-4b79-91b4-09e7b530f5d9",
     "appType": "clockface",
-    "appDisplayName": "Try clockface",
+    "appDisplayName": "Flag and images",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [
       "access_activity",
       "access_heart_rate",
       "access_internet",
-      "run_background"
+      "run_background",
+      "access_user_profile"
     ],
     "buildTargets": [
       "atlas",
@@ -20,7 +21,7 @@
     ],
     "i18n": {
       "en-US": {
-        "name": "Try clockface"
+        "name": "Flag and images"
       }
     },
     "defaultLanguage": "en-US"
