@@ -10,7 +10,6 @@
 #background{
   width: 100%;
   height: 100%;
-  fill: white;
 }
 #time {
   font-family: System-Bold;
@@ -23,9 +22,9 @@
   font-size: 30;
 }
 #ico {
-  width: 15;
-  height: 15;
+  width: 18;
+  height: 18;
 }
 .sensor-data {
-  font-size: 20;
+  font-size: 25;
 }
