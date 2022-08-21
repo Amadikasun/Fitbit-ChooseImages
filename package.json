@@ -5,7 +5,7 @@
   "fitbit": {
     "appUUID": "2e4c0aa2-cc4f-4b79-91b4-09e7b530f5d9",
     "appType": "clockface",
-    "appDisplayName": "Flag and images",
+    "appDisplayName": "Images",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
     "requestedPermissions": [
@@ -21,7 +21,7 @@
     ],
     "i18n": {
       "en-US": {
-        "name": "Flag and images"
+        "name": "Images"
       }
     },
     "defaultLanguage": "en-US"

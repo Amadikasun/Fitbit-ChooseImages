@@ -4,7 +4,7 @@
   <image visibility="hidden" x= "0" y="0" width="400" height="350" id="img1" href="wolf.png"/>
   <image visibility="hidden" x= "0" y="0" width="550" height="350" id="img2" href="poppies.png"/>
   <image visibility="hidden" x= "0" y="0" width="400" height="350" id="img3" href="dragon.png"/>
-  <image visibility="hidden" x= "-60" y="0" width="450" z-index="10" height="360" id="img4" href="cat.png"/>
+  <image visibility="hidden" x= "-60" y="0" width="450" height="360" id="img4" href="cat.png"/>
   <!-- visibility, x, y, id, class, href-->
   <text  x="160" y="35" id="datem" class="top"/>
   <text x="165" y="200" id="time" class="top"/>

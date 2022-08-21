@@ -1,14 +1,14 @@
-#  Images
+#  Images and Flags
+
+<img src="WOLF.png" alt="Flag_and_Image-screenshot (1)" style="zoom:50%;" />
 
 <img src="CAT.png" alt="Flag_and_Image-screenshot" style="zoom:50%;" />
-
-<img src="WOLF.png" alt="Flag_and_Image-screenshot_SPACE" style="zoom:25%;" /> 
 
 
 
 ## Description
 
-This clock face was created using the image. Clock face for Fitbit Sense and Versa 3. Built using the Fitbit Studio and Fitbit OS Simulator.
+A clock face for Fitbit Sense and Versa 3. Built using the Fitbit Studio and Fitbit OS Simulator.
 
 ### Clock
 
